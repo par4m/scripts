@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+maim -s --hidecursor --format=png /dev/stdout | xclip -selection clipboard -t image/png -i
