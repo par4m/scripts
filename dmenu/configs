@@ -22,7 +22,7 @@ declare -a options=(
 
 # Piping the above array into dmenu.
 # We use "printf '%s\n'" to format the array one item to a line.
-choice=$(printf '%s\n' "${options[@]}" | dmenu -i -l 20  -fn 'Terminus-10.5' -nb '#282828' -nf '#a89984' -sb '#937F74' -sf '#282828')
+choice=$(printf '%s\n' "${options[@]}" | dmenu -i -l 20  -fn 'Terminus-10.5')
 
 # What to do when/if we choose 'quit'.
 if [[ "$choice" == "quit" ]]; then

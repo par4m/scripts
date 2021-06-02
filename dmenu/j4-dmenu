@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-j4-dmenu-desktop --dmenu="dmenu -i -fn 'JetBrainsMono Nerd Font-10.5' -nb '#282828' -nf '#bebebe' -sb '#83A595' -sf '#282828'"
