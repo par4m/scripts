@@ -4,4 +4,4 @@ setxkbmap -option caps:ctrl_modifier -option grp:shifts_toggle
 
 # Remove previously running instances
 killall xcape
-xcape  -e 'Caps_Lock=Escape' -t200
+xcape  -e 'Caps_Lock=Escape' -t 100
