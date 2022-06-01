@@ -2,6 +2,7 @@
 
 # load Xresources
 xrdb ~/.Xresources
+dwmblocks &
 
 # Change this depending on your battery in /sys/class/power_supply/
 # battery="BAT0";
@@ -44,5 +45,5 @@ xrdb ~/.Xresources
 # done
 
 while :; do
-  dwm 2> ~/.dwm.log
+ dwm 2> ~/.dwm.log
 done
