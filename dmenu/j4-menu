@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # j4-dmenu-desktop --dmenu="dmenu -i -fn 'Iosevka Term SS08 Medium-13' -nb '#282828' -nf '#bebebe' -sb '#83A595' -sf '#282828'"
 # j4-dmenu-desktop --dmenu="dmenu -fn 'Terminus' -bw 3 -c -l 10 -p '>' -sb '#504945' "
-j4-dmenu-desktop --dmenu="dmenu -fn 'curie' -b -p '>' "
+j4-dmenu-desktop --dmenu="dmenu -fn 'curie' -b -p '> ' "
