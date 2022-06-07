@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # load Xresources
-xrdb ~/.Xresources
+# xrdb ~/.Xresources
 dwmblocks &
 # alttab &
 
