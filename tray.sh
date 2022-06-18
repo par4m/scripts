@@ -12,3 +12,6 @@ pidof nm-applet 1>/dev/null || nm-applet &
 
 # volctl applet
 pgrep volctl 1>/dev/null || volctl &
+
+# blueman applet
+pidof blueman-applet 1>/dev/null || blueman-applet &
