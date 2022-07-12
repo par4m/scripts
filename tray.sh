@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # check if battery exits and run xfce4-power-manager
-if [ -f /sys/class/power_supply/BAT0 ] | [ -f /sys/class/power_supply/BAT0 ]; then
+if [ -d '/sys/class/power_supply/BAT0/' ] || [ -d '/sys/class/power_supply/BAT1/' ]; then
     pidof xfce4-power-manager 1>/dev/null || xfce4-power-manager &
 else
     echo "Battery Not Found!"
