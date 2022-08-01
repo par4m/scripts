@@ -3,6 +3,7 @@
 # load Xresources
 # xrdb ~/.Xresources
 dwmblocks &
+feh --bg-scale ~/wallpapers/nord/underwater.png
 # alttab &
 
 
