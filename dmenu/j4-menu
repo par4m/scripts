@@ -8,4 +8,4 @@
 # j4-dmenu-desktop --dmenu="dmenu -fn 'curie' -b -p '> ' -nb '#E3CC94' -sf '#282828' -sb '#D79921' -nf '#282828' "
 
 # nord
-j4-dmenu-desktop --dmenu="dmenu -fn 'curie' -b -p '> ' -nb '#2E3440' -sf '#282828' -sb '#81A1C1' -nf '#bebebe' "
+j4-dmenu-desktop --dmenu="dmenu -fn 'curie' -p '> ' -nb '#2E3440' -sf '#282828' -sb '#81A1C1' -nf '#bebebe' "

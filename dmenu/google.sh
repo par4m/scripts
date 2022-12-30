@@ -1,6 +1,6 @@
 #!/bin/bash
 
-QUERY=$(printf "" | dmenu -p "Google: " -b -fn 'curie')
+QUERY=$(printf "" | dmenu -p "Google: " -fn 'curie' -nb '#2E3440' -sf '#282828' -sb '#81A1C1' -nf '#bebebe')
 CON=$(echo $QUERY | tr " " "+")
 
 
