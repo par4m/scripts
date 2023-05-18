@@ -1,11 +1,6 @@
 #!/bin/bash
 
 
-
-#!/bin/bash
-
-# Author: Akhil Jalagam
-
 # replace MAC and card name here first time
 AIRPODS_MAC='14:88:E6:D2:40:B5' # it should be in blueman-manager
 AIRPODS_NAME='bluez_card.14_88_E6_D2_40_B5' # you can find this using 'pactl list cards' command
@@ -33,6 +28,7 @@ case "$1" in
         # killall ofono-phonesim
         # sudo systemctl stop ofono
         bluetoothctl disconnect $AIRPODS_MAC
+        bluetoothctl power off
         #bluetooth off
     ;;
 esac
