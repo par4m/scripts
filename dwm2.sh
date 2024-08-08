@@ -5,6 +5,9 @@
 dwmblocks &
 feh --bg-scale ~/wallpapers/nord/underwater.png
 # feh --bg-scale ~/wallpapers/catppuccin/girl.png
+~/.xsession
+~/.local/bin/scripts/display.sk
+remap-keys
 
 # alttab &
 
